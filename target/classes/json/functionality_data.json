@@ -1,0 +1,917 @@
+{
+	"user": 1,
+	"datas": [
+		{
+			"code": "CHAT_MESSAGE_ATTACHMENTS",
+			"name": "CHAT_MESSAGE_ATTACHMENTS"
+		},
+		{
+			"code": "VIEW_CHAT_MESSAGE_ATTACHMENTS",
+			"parentCode": "CHAT_MESSAGE_ATTACHMENTS",
+			"name": "VIEW CHAT_MESSAGE_ATTACHMENTS"
+		},
+		{
+			"code": "CREATE_CHAT_MESSAGE_ATTACHMENTS",
+			"parentCode": "CHAT_MESSAGE_ATTACHMENTS",
+			"name": "CREATE CHAT_MESSAGE_ATTACHMENTS"
+		},
+		{
+			"code": "UPDATE_CHAT_MESSAGE_ATTACHMENTS",
+			"parentCode": "CHAT_MESSAGE_ATTACHMENTS",
+			"name": "UPDATE CHAT_MESSAGE_ATTACHMENTS"
+		},
+		{
+			"code": "DELETE_CHAT_MESSAGE_ATTACHMENTS",
+			"parentCode": "CHAT_MESSAGE_ATTACHMENTS",
+			"name": "DELETE CHAT_MESSAGE_ATTACHMENTS"
+		},
+		{
+			"code": "CHAT_MESSAGES",
+			"name": "CHAT_MESSAGES"
+		},
+		{
+			"code": "VIEW_CHAT_MESSAGES",
+			"parentCode": "CHAT_MESSAGES",
+			"name": "VIEW CHAT_MESSAGES"
+		},
+		{
+			"code": "CREATE_CHAT_MESSAGES",
+			"parentCode": "CHAT_MESSAGES",
+			"name": "CREATE CHAT_MESSAGES"
+		},
+		{
+			"code": "UPDATE_CHAT_MESSAGES",
+			"parentCode": "CHAT_MESSAGES",
+			"name": "UPDATE CHAT_MESSAGES"
+		},
+		{
+			"code": "DELETE_CHAT_MESSAGES",
+			"parentCode": "CHAT_MESSAGES",
+			"name": "DELETE CHAT_MESSAGES"
+		},
+		{
+			"code": "CHAT_ROOM_PARTICIPANTS",
+			"name": "CHAT_ROOM_PARTICIPANTS"
+		},
+		{
+			"code": "VIEW_CHAT_ROOM_PARTICIPANTS",
+			"parentCode": "CHAT_ROOM_PARTICIPANTS",
+			"name": "VIEW CHAT_ROOM_PARTICIPANTS"
+		},
+		{
+			"code": "CREATE_CHAT_ROOM_PARTICIPANTS",
+			"parentCode": "CHAT_ROOM_PARTICIPANTS",
+			"name": "CREATE CHAT_ROOM_PARTICIPANTS"
+		},
+		{
+			"code": "UPDATE_CHAT_ROOM_PARTICIPANTS",
+			"parentCode": "CHAT_ROOM_PARTICIPANTS",
+			"name": "UPDATE CHAT_ROOM_PARTICIPANTS"
+		},
+		{
+			"code": "DELETE_CHAT_ROOM_PARTICIPANTS",
+			"parentCode": "CHAT_ROOM_PARTICIPANTS",
+			"name": "DELETE CHAT_ROOM_PARTICIPANTS"
+		},
+		{
+			"code": "CHAT_ROOMS",
+			"name": "CHAT_ROOMS"
+		},
+		{
+			"code": "VIEW_CHAT_ROOMS",
+			"parentCode": "CHAT_ROOMS",
+			"name": "VIEW CHAT_ROOMS"
+		},
+		{
+			"code": "CREATE_CHAT_ROOMS",
+			"parentCode": "CHAT_ROOMS",
+			"name": "CREATE CHAT_ROOMS"
+		},
+		{
+			"code": "UPDATE_CHAT_ROOMS",
+			"parentCode": "CHAT_ROOMS",
+			"name": "UPDATE CHAT_ROOMS"
+		},
+		{
+			"code": "DELETE_CHAT_ROOMS",
+			"parentCode": "CHAT_ROOMS",
+			"name": "DELETE CHAT_ROOMS"
+		},
+		{
+			"code": "CLIENT_ROLES",
+			"name": "CLIENT_ROLES"
+		},
+		{
+			"code": "VIEW_CLIENT_ROLES",
+			"parentCode": "CLIENT_ROLES",
+			"name": "VIEW CLIENT_ROLES"
+		},
+		{
+			"code": "CREATE_CLIENT_ROLES",
+			"parentCode": "CLIENT_ROLES",
+			"name": "CREATE CLIENT_ROLES"
+		},
+		{
+			"code": "UPDATE_CLIENT_ROLES",
+			"parentCode": "CLIENT_ROLES",
+			"name": "UPDATE CLIENT_ROLES"
+		},
+		{
+			"code": "DELETE_CLIENT_ROLES",
+			"parentCode": "CLIENT_ROLES",
+			"name": "DELETE CLIENT_ROLES"
+		},
+		{
+			"code": "CLIENTS",
+			"name": "CLIENTS"
+		},
+		{
+			"code": "VIEW_CLIENTS",
+			"parentCode": "CLIENTS",
+			"name": "VIEW CLIENTS"
+		},
+		{
+			"code": "CREATE_CLIENTS",
+			"parentCode": "CLIENTS",
+			"name": "CREATE CLIENTS"
+		},
+		{
+			"code": "UPDATE_CLIENTS",
+			"parentCode": "CLIENTS",
+			"name": "UPDATE CLIENTS"
+		},
+		{
+			"code": "DELETE_CLIENTS",
+			"parentCode": "CLIENTS",
+			"name": "DELETE CLIENTS"
+		},
+		{
+			"code": "DELIVERIES",
+			"name": "DELIVERIES"
+		},
+		{
+			"code": "VIEW_DELIVERIES",
+			"parentCode": "DELIVERIES",
+			"name": "VIEW DELIVERIES"
+		},
+		{
+			"code": "CREATE_DELIVERIES",
+			"parentCode": "DELIVERIES",
+			"name": "CREATE DELIVERIES"
+		},
+		{
+			"code": "UPDATE_DELIVERIES",
+			"parentCode": "DELIVERIES",
+			"name": "UPDATE DELIVERIES"
+		},
+		{
+			"code": "DELETE_DELIVERIES",
+			"parentCode": "DELIVERIES",
+			"name": "DELETE DELIVERIES"
+		},
+		{
+			"code": "DELIVERY_PERSON_PROFILES",
+			"name": "DELIVERY_PERSON_PROFILES"
+		},
+		{
+			"code": "VIEW_DELIVERY_PERSON_PROFILES",
+			"parentCode": "DELIVERY_PERSON_PROFILES",
+			"name": "VIEW DELIVERY_PERSON_PROFILES"
+		},
+		{
+			"code": "CREATE_DELIVERY_PERSON_PROFILES",
+			"parentCode": "DELIVERY_PERSON_PROFILES",
+			"name": "CREATE DELIVERY_PERSON_PROFILES"
+		},
+		{
+			"code": "UPDATE_DELIVERY_PERSON_PROFILES",
+			"parentCode": "DELIVERY_PERSON_PROFILES",
+			"name": "UPDATE DELIVERY_PERSON_PROFILES"
+		},
+		{
+			"code": "DELETE_DELIVERY_PERSON_PROFILES",
+			"parentCode": "DELIVERY_PERSON_PROFILES",
+			"name": "DELETE DELIVERY_PERSON_PROFILES"
+		},
+		{
+			"code": "MANUFACTURERS",
+			"name": "MANUFACTURERS"
+		},
+		{
+			"code": "VIEW_MANUFACTURERS",
+			"parentCode": "MANUFACTURERS",
+			"name": "VIEW MANUFACTURERS"
+		},
+		{
+			"code": "CREATE_MANUFACTURERS",
+			"parentCode": "MANUFACTURERS",
+			"name": "CREATE MANUFACTURERS"
+		},
+		{
+			"code": "UPDATE_MANUFACTURERS",
+			"parentCode": "MANUFACTURERS",
+			"name": "UPDATE MANUFACTURERS"
+		},
+		{
+			"code": "DELETE_MANUFACTURERS",
+			"parentCode": "MANUFACTURERS",
+			"name": "DELETE MANUFACTURERS"
+		},
+		{
+			"code": "NOTICES",
+			"name": "NOTICES"
+		},
+		{
+			"code": "VIEW_NOTICES",
+			"parentCode": "NOTICES",
+			"name": "VIEW NOTICES"
+		},
+		{
+			"code": "CREATE_NOTICES",
+			"parentCode": "NOTICES",
+			"name": "CREATE NOTICES"
+		},
+		{
+			"code": "UPDATE_NOTICES",
+			"parentCode": "NOTICES",
+			"name": "UPDATE NOTICES"
+		},
+		{
+			"code": "DELETE_NOTICES",
+			"parentCode": "NOTICES",
+			"name": "DELETE NOTICES"
+		},
+		{
+			"code": "ORDER_ITEMS",
+			"name": "ORDER_ITEMS"
+		},
+		{
+			"code": "VIEW_ORDER_ITEMS",
+			"parentCode": "ORDER_ITEMS",
+			"name": "VIEW ORDER_ITEMS"
+		},
+		{
+			"code": "CREATE_ORDER_ITEMS",
+			"parentCode": "ORDER_ITEMS",
+			"name": "CREATE ORDER_ITEMS"
+		},
+		{
+			"code": "UPDATE_ORDER_ITEMS",
+			"parentCode": "ORDER_ITEMS",
+			"name": "UPDATE ORDER_ITEMS"
+		},
+		{
+			"code": "DELETE_ORDER_ITEMS",
+			"parentCode": "ORDER_ITEMS",
+			"name": "DELETE ORDER_ITEMS"
+		},
+		{
+			"code": "ORDERS",
+			"name": "ORDERS"
+		},
+		{
+			"code": "VIEW_ORDERS",
+			"parentCode": "ORDERS",
+			"name": "VIEW ORDERS"
+		},
+		{
+			"code": "CREATE_ORDERS",
+			"parentCode": "ORDERS",
+			"name": "CREATE ORDERS"
+		},
+		{
+			"code": "UPDATE_ORDERS",
+			"parentCode": "ORDERS",
+			"name": "UPDATE ORDERS"
+		},
+		{
+			"code": "DELETE_ORDERS",
+			"parentCode": "ORDERS",
+			"name": "DELETE ORDERS"
+		},
+		{
+			"code": "PERMISSIONS",
+			"name": "PERMISSIONS"
+		},
+		{
+			"code": "VIEW_PERMISSIONS",
+			"parentCode": "PERMISSIONS",
+			"name": "VIEW PERMISSIONS"
+		},
+		{
+			"code": "CREATE_PERMISSIONS",
+			"parentCode": "PERMISSIONS",
+			"name": "CREATE PERMISSIONS"
+		},
+		{
+			"code": "UPDATE_PERMISSIONS",
+			"parentCode": "PERMISSIONS",
+			"name": "UPDATE PERMISSIONS"
+		},
+		{
+			"code": "DELETE_PERMISSIONS",
+			"parentCode": "PERMISSIONS",
+			"name": "DELETE PERMISSIONS"
+		},
+		{
+			"code": "PHARMACIES",
+			"name": "PHARMACIES"
+		},
+		{
+			"code": "VIEW_PHARMACIES",
+			"parentCode": "PHARMACIES",
+			"name": "VIEW PHARMACIES"
+		},
+		{
+			"code": "CREATE_PHARMACIES",
+			"parentCode": "PHARMACIES",
+			"name": "CREATE PHARMACIES"
+		},
+		{
+			"code": "UPDATE_PHARMACIES",
+			"parentCode": "PHARMACIES",
+			"name": "UPDATE PHARMACIES"
+		},
+		{
+			"code": "DELETE_PHARMACIES",
+			"parentCode": "PHARMACIES",
+			"name": "DELETE PHARMACIES"
+		},
+		{
+			"code": "PHARMACY_RATINGS",
+			"name": "PHARMACY_RATINGS"
+		},
+		{
+			"code": "VIEW_PHARMACY_RATINGS",
+			"parentCode": "PHARMACY_RATINGS",
+			"name": "VIEW PHARMACY_RATINGS"
+		},
+		{
+			"code": "CREATE_PHARMACY_RATINGS",
+			"parentCode": "PHARMACY_RATINGS",
+			"name": "CREATE PHARMACY_RATINGS"
+		},
+		{
+			"code": "UPDATE_PHARMACY_RATINGS",
+			"parentCode": "PHARMACY_RATINGS",
+			"name": "UPDATE PHARMACY_RATINGS"
+		},
+		{
+			"code": "DELETE_PHARMACY_RATINGS",
+			"parentCode": "PHARMACY_RATINGS",
+			"name": "DELETE PHARMACY_RATINGS"
+		},
+		{
+			"code": "PRESCRIPTION_ITEMS",
+			"name": "PRESCRIPTION_ITEMS"
+		},
+		{
+			"code": "VIEW_PRESCRIPTION_ITEMS",
+			"parentCode": "PRESCRIPTION_ITEMS",
+			"name": "VIEW PRESCRIPTION_ITEMS"
+		},
+		{
+			"code": "CREATE_PRESCRIPTION_ITEMS",
+			"parentCode": "PRESCRIPTION_ITEMS",
+			"name": "CREATE PRESCRIPTION_ITEMS"
+		},
+		{
+			"code": "UPDATE_PRESCRIPTION_ITEMS",
+			"parentCode": "PRESCRIPTION_ITEMS",
+			"name": "UPDATE PRESCRIPTION_ITEMS"
+		},
+		{
+			"code": "DELETE_PRESCRIPTION_ITEMS",
+			"parentCode": "PRESCRIPTION_ITEMS",
+			"name": "DELETE PRESCRIPTION_ITEMS"
+		},
+		{
+			"code": "PRESCRIPTIONS",
+			"name": "PRESCRIPTIONS"
+		},
+		{
+			"code": "VIEW_PRESCRIPTIONS",
+			"parentCode": "PRESCRIPTIONS",
+			"name": "VIEW PRESCRIPTIONS"
+		},
+		{
+			"code": "CREATE_PRESCRIPTIONS",
+			"parentCode": "PRESCRIPTIONS",
+			"name": "CREATE PRESCRIPTIONS"
+		},
+		{
+			"code": "UPDATE_PRESCRIPTIONS",
+			"parentCode": "PRESCRIPTIONS",
+			"name": "UPDATE PRESCRIPTIONS"
+		},
+		{
+			"code": "DELETE_PRESCRIPTIONS",
+			"parentCode": "PRESCRIPTIONS",
+			"name": "DELETE PRESCRIPTIONS"
+		},
+		{
+			"code": "PRODUCT_CATEGORIES",
+			"name": "PRODUCT_CATEGORIES"
+		},
+		{
+			"code": "VIEW_PRODUCT_CATEGORIES",
+			"parentCode": "PRODUCT_CATEGORIES",
+			"name": "VIEW PRODUCT_CATEGORIES"
+		},
+		{
+			"code": "CREATE_PRODUCT_CATEGORIES",
+			"parentCode": "PRODUCT_CATEGORIES",
+			"name": "CREATE PRODUCT_CATEGORIES"
+		},
+		{
+			"code": "UPDATE_PRODUCT_CATEGORIES",
+			"parentCode": "PRODUCT_CATEGORIES",
+			"name": "UPDATE PRODUCT_CATEGORIES"
+		},
+		{
+			"code": "DELETE_PRODUCT_CATEGORIES",
+			"parentCode": "PRODUCT_CATEGORIES",
+			"name": "DELETE PRODUCT_CATEGORIES"
+		},
+		{
+			"code": "PRODUCT_MOVEMENTS",
+			"name": "PRODUCT_MOVEMENTS"
+		},
+		{
+			"code": "VIEW_PRODUCT_MOVEMENTS",
+			"parentCode": "PRODUCT_MOVEMENTS",
+			"name": "VIEW PRODUCT_MOVEMENTS"
+		},
+		{
+			"code": "CREATE_PRODUCT_MOVEMENTS",
+			"parentCode": "PRODUCT_MOVEMENTS",
+			"name": "CREATE PRODUCT_MOVEMENTS"
+		},
+		{
+			"code": "UPDATE_PRODUCT_MOVEMENTS",
+			"parentCode": "PRODUCT_MOVEMENTS",
+			"name": "UPDATE PRODUCT_MOVEMENTS"
+		},
+		{
+			"code": "DELETE_PRODUCT_MOVEMENTS",
+			"parentCode": "PRODUCT_MOVEMENTS",
+			"name": "DELETE PRODUCT_MOVEMENTS"
+		},
+		{
+			"code": "PRODUCTS",
+			"name": "PRODUCTS"
+		},
+		{
+			"code": "VIEW_PRODUCTS",
+			"parentCode": "PRODUCTS",
+			"name": "VIEW PRODUCTS"
+		},
+		{
+			"code": "CREATE_PRODUCTS",
+			"parentCode": "PRODUCTS",
+			"name": "CREATE PRODUCTS"
+		},
+		{
+			"code": "UPDATE_PRODUCTS",
+			"parentCode": "PRODUCTS",
+			"name": "UPDATE PRODUCTS"
+		},
+		{
+			"code": "DELETE_PRODUCTS",
+			"parentCode": "PRODUCTS",
+			"name": "DELETE PRODUCTS"
+		},
+		{
+			"code": "PURCHASE_ORDER_ITEMS",
+			"name": "PURCHASE_ORDER_ITEMS"
+		},
+		{
+			"code": "VIEW_PURCHASE_ORDER_ITEMS",
+			"parentCode": "PURCHASE_ORDER_ITEMS",
+			"name": "VIEW PURCHASE_ORDER_ITEMS"
+		},
+		{
+			"code": "CREATE_PURCHASE_ORDER_ITEMS",
+			"parentCode": "PURCHASE_ORDER_ITEMS",
+			"name": "CREATE PURCHASE_ORDER_ITEMS"
+		},
+		{
+			"code": "UPDATE_PURCHASE_ORDER_ITEMS",
+			"parentCode": "PURCHASE_ORDER_ITEMS",
+			"name": "UPDATE PURCHASE_ORDER_ITEMS"
+		},
+		{
+			"code": "DELETE_PURCHASE_ORDER_ITEMS",
+			"parentCode": "PURCHASE_ORDER_ITEMS",
+			"name": "DELETE PURCHASE_ORDER_ITEMS"
+		},
+		{
+			"code": "PURCHASE_ORDERS",
+			"name": "PURCHASE_ORDERS"
+		},
+		{
+			"code": "VIEW_PURCHASE_ORDERS",
+			"parentCode": "PURCHASE_ORDERS",
+			"name": "VIEW PURCHASE_ORDERS"
+		},
+		{
+			"code": "CREATE_PURCHASE_ORDERS",
+			"parentCode": "PURCHASE_ORDERS",
+			"name": "CREATE PURCHASE_ORDERS"
+		},
+		{
+			"code": "UPDATE_PURCHASE_ORDERS",
+			"parentCode": "PURCHASE_ORDERS",
+			"name": "UPDATE PURCHASE_ORDERS"
+		},
+		{
+			"code": "DELETE_PURCHASE_ORDERS",
+			"parentCode": "PURCHASE_ORDERS",
+			"name": "DELETE PURCHASE_ORDERS"
+		},
+		{
+			"code": "ROLE_PERMISSIONS",
+			"name": "ROLE_PERMISSIONS"
+		},
+		{
+			"code": "VIEW_ROLE_PERMISSIONS",
+			"parentCode": "ROLE_PERMISSIONS",
+			"name": "VIEW ROLE_PERMISSIONS"
+		},
+		{
+			"code": "CREATE_ROLE_PERMISSIONS",
+			"parentCode": "ROLE_PERMISSIONS",
+			"name": "CREATE ROLE_PERMISSIONS"
+		},
+		{
+			"code": "UPDATE_ROLE_PERMISSIONS",
+			"parentCode": "ROLE_PERMISSIONS",
+			"name": "UPDATE ROLE_PERMISSIONS"
+		},
+		{
+			"code": "DELETE_ROLE_PERMISSIONS",
+			"parentCode": "ROLE_PERMISSIONS",
+			"name": "DELETE ROLE_PERMISSIONS"
+		},
+		{
+			"code": "ROLES",
+			"name": "ROLES"
+		},
+		{
+			"code": "VIEW_ROLES",
+			"parentCode": "ROLES",
+			"name": "VIEW ROLES"
+		},
+		{
+			"code": "CREATE_ROLES",
+			"parentCode": "ROLES",
+			"name": "CREATE ROLES"
+		},
+		{
+			"code": "UPDATE_ROLES",
+			"parentCode": "ROLES",
+			"name": "UPDATE ROLES"
+		},
+		{
+			"code": "DELETE_ROLES",
+			"parentCode": "ROLES",
+			"name": "DELETE ROLES"
+		},
+		{
+			"code": "STOCK",
+			"name": "STOCK"
+		},
+		{
+			"code": "VIEW_STOCK",
+			"parentCode": "STOCK",
+			"name": "VIEW STOCK"
+		},
+		{
+			"code": "CREATE_STOCK",
+			"parentCode": "STOCK",
+			"name": "CREATE STOCK"
+		},
+		{
+			"code": "UPDATE_STOCK",
+			"parentCode": "STOCK",
+			"name": "UPDATE STOCK"
+		},
+		{
+			"code": "DELETE_STOCK",
+			"parentCode": "STOCK",
+			"name": "DELETE STOCK"
+		},
+		{
+			"code": "STOCK_ALERTS",
+			"name": "STOCK_ALERTS"
+		},
+		{
+			"code": "VIEW_STOCK_ALERTS",
+			"parentCode": "STOCK_ALERTS",
+			"name": "VIEW STOCK_ALERTS"
+		},
+		{
+			"code": "CREATE_STOCK_ALERTS",
+			"parentCode": "STOCK_ALERTS",
+			"name": "CREATE STOCK_ALERTS"
+		},
+		{
+			"code": "UPDATE_STOCK_ALERTS",
+			"parentCode": "STOCK_ALERTS",
+			"name": "UPDATE STOCK_ALERTS"
+		},
+		{
+			"code": "DELETE_STOCK_ALERTS",
+			"parentCode": "STOCK_ALERTS",
+			"name": "DELETE STOCK_ALERTS"
+		},
+		{
+			"code": "STOCK_AUDIT",
+			"name": "STOCK_AUDIT"
+		},
+		{
+			"code": "VIEW_STOCK_AUDIT",
+			"parentCode": "STOCK_AUDIT",
+			"name": "VIEW STOCK_AUDIT"
+		},
+		{
+			"code": "CREATE_STOCK_AUDIT",
+			"parentCode": "STOCK_AUDIT",
+			"name": "CREATE STOCK_AUDIT"
+		},
+		{
+			"code": "UPDATE_STOCK_AUDIT",
+			"parentCode": "STOCK_AUDIT",
+			"name": "UPDATE STOCK_AUDIT"
+		},
+		{
+			"code": "DELETE_STOCK_AUDIT",
+			"parentCode": "STOCK_AUDIT",
+			"name": "DELETE STOCK_AUDIT"
+		},
+		{
+			"code": "USER_RATINGS",
+			"name": "USER_RATINGS"
+		},
+		{
+			"code": "VIEW_USER_RATINGS",
+			"parentCode": "USER_RATINGS",
+			"name": "VIEW USER_RATINGS"
+		},
+		{
+			"code": "CREATE_USER_RATINGS",
+			"parentCode": "USER_RATINGS",
+			"name": "CREATE USER_RATINGS"
+		},
+		{
+			"code": "UPDATE_USER_RATINGS",
+			"parentCode": "USER_RATINGS",
+			"name": "UPDATE USER_RATINGS"
+		},
+		{
+			"code": "DELETE_USER_RATINGS",
+			"parentCode": "USER_RATINGS",
+			"name": "DELETE USER_RATINGS"
+		},
+		{
+			"code": "USER_ROLES",
+			"name": "USER_ROLES"
+		},
+		{
+			"code": "VIEW_USER_ROLES",
+			"parentCode": "USER_ROLES",
+			"name": "VIEW USER_ROLES"
+		},
+		{
+			"code": "CREATE_USER_ROLES",
+			"parentCode": "USER_ROLES",
+			"name": "CREATE USER_ROLES"
+		},
+		{
+			"code": "UPDATE_USER_ROLES",
+			"parentCode": "USER_ROLES",
+			"name": "UPDATE USER_ROLES"
+		},
+		{
+			"code": "DELETE_USER_ROLES",
+			"parentCode": "USER_ROLES",
+			"name": "DELETE USER_ROLES"
+		},
+		{
+			"code": "USERS",
+			"name": "USERS"
+		},
+		{
+			"code": "VIEW_USERS",
+			"parentCode": "USERS",
+			"name": "VIEW USERS"
+		},
+		{
+			"code": "CREATE_USERS",
+			"parentCode": "USERS",
+			"name": "CREATE USERS"
+		},
+		{
+			"code": "UPDATE_USERS",
+			"parentCode": "USERS",
+			"name": "UPDATE USERS"
+		},
+		{
+			"code": "DELETE_USERS",
+			"parentCode": "USERS",
+			"name": "DELETE USERS"
+		},
+		{
+			"code": "API_LOGS",
+			"name": "API_LOGS"
+		},
+		{
+			"code": "VIEW_API_LOGS",
+			"parentCode": "API_LOGS",
+			"name": "VIEW API_LOGS"
+		},
+		{
+			"code": "CREATE_API_LOGS",
+			"parentCode": "API_LOGS",
+			"name": "CREATE API_LOGS"
+		},
+		{
+			"code": "UPDATE_API_LOGS",
+			"parentCode": "API_LOGS",
+			"name": "UPDATE API_LOGS"
+		},
+		{
+			"code": "DELETE_API_LOGS",
+			"parentCode": "API_LOGS",
+			"name": "DELETE API_LOGS"
+		},
+		{
+			"code": "API_USER",
+			"name": "API_USER"
+		},
+		{
+			"code": "VIEW_API_USER",
+			"parentCode": "API_USER",
+			"name": "VIEW API_USER"
+		},
+		{
+			"code": "CREATE_API_USER",
+			"parentCode": "API_USER",
+			"name": "CREATE API_USER"
+		},
+		{
+			"code": "UPDATE_API_USER",
+			"parentCode": "API_USER",
+			"name": "UPDATE API_USER"
+		},
+		{
+			"code": "DELETE_API_USER",
+			"parentCode": "API_USER",
+			"name": "DELETE API_USER"
+		},
+		{
+			"code": "LOGS",
+			"name": "LOGS"
+		},
+		{
+			"code": "VIEW_LOGS",
+			"parentCode": "LOGS",
+			"name": "VIEW LOGS"
+		},
+		{
+			"code": "CREATE_LOGS",
+			"parentCode": "LOGS",
+			"name": "CREATE LOGS"
+		},
+		{
+			"code": "UPDATE_LOGS",
+			"parentCode": "LOGS",
+			"name": "UPDATE LOGS"
+		},
+		{
+			"code": "DELETE_LOGS",
+			"parentCode": "LOGS",
+			"name": "DELETE LOGS"
+		},
+		{
+			"code": "NOTIFICATIONS",
+			"name": "NOTIFICATIONS"
+		},
+		{
+			"code": "VIEW_NOTIFICATIONS",
+			"parentCode": "NOTIFICATIONS",
+			"name": "VIEW NOTIFICATIONS"
+		},
+		{
+			"code": "CREATE_NOTIFICATIONS",
+			"parentCode": "NOTIFICATIONS",
+			"name": "CREATE NOTIFICATIONS"
+		},
+		{
+			"code": "UPDATE_NOTIFICATIONS",
+			"parentCode": "NOTIFICATIONS",
+			"name": "UPDATE NOTIFICATIONS"
+		},
+		{
+			"code": "DELETE_NOTIFICATIONS",
+			"parentCode": "NOTIFICATIONS",
+			"name": "DELETE NOTIFICATIONS"
+		},
+		{
+			"code": "PARAM_NOTIFICATION",
+			"name": "PARAM_NOTIFICATION"
+		},
+		{
+			"code": "VIEW_PARAM_NOTIFICATION",
+			"parentCode": "PARAM_NOTIFICATION",
+			"name": "VIEW PARAM_NOTIFICATION"
+		},
+		{
+			"code": "CREATE_PARAM_NOTIFICATION",
+			"parentCode": "PARAM_NOTIFICATION",
+			"name": "CREATE PARAM_NOTIFICATION"
+		},
+		{
+			"code": "UPDATE_PARAM_NOTIFICATION",
+			"parentCode": "PARAM_NOTIFICATION",
+			"name": "UPDATE PARAM_NOTIFICATION"
+		},
+		{
+			"code": "DELETE_PARAM_NOTIFICATION",
+			"parentCode": "PARAM_NOTIFICATION",
+			"name": "DELETE PARAM_NOTIFICATION"
+		},
+		{
+			"code": "PARAMETRE_GENERAUX",
+			"name": "PARAMETRE_GENERAUX"
+		},
+		{
+			"code": "VIEW_PARAMETRE_GENERAUX",
+			"parentCode": "PARAMETRE_GENERAUX",
+			"name": "VIEW PARAMETRE_GENERAUX"
+		},
+		{
+			"code": "CREATE_PARAMETRE_GENERAUX",
+			"parentCode": "PARAMETRE_GENERAUX",
+			"name": "CREATE PARAMETRE_GENERAUX"
+		},
+		{
+			"code": "UPDATE_PARAMETRE_GENERAUX",
+			"parentCode": "PARAMETRE_GENERAUX",
+			"name": "UPDATE PARAMETRE_GENERAUX"
+		},
+		{
+			"code": "DELETE_PARAMETRE_GENERAUX",
+			"parentCode": "PARAMETRE_GENERAUX",
+			"name": "DELETE PARAMETRE_GENERAUX"
+		},
+		{
+			"code": "PAYMENTS",
+			"name": "PAYMENTS"
+		},
+		{
+			"code": "VIEW_PAYMENTS",
+			"parentCode": "PAYMENTS",
+			"name": "VIEW PAYMENTS"
+		},
+		{
+			"code": "CREATE_PAYMENTS",
+			"parentCode": "PAYMENTS",
+			"name": "CREATE PAYMENTS"
+		},
+		{
+			"code": "UPDATE_PAYMENTS",
+			"parentCode": "PAYMENTS",
+			"name": "UPDATE PAYMENTS"
+		},
+		{
+			"code": "DELETE_PAYMENTS",
+			"parentCode": "PAYMENTS",
+			"name": "DELETE PAYMENTS"
+		},
+		{
+			"code": "PERMISSIONS",
+			"name": "PERMISSIONS"
+		},
+		{
+			"code": "VIEW_PERMISSIONS",
+			"parentCode": "PERMISSIONS",
+			"name": "VIEW PERMISSIONS"
+		},
+		{
+			"code": "CREATE_PERMISSIONS",
+			"parentCode": "PERMISSIONS",
+			"name": "CREATE PERMISSIONS"
+		},
+		{
+			"code": "UPDATE_PERMISSIONS",
+			"parentCode": "PERMISSIONS",
+			"name": "UPDATE PERMISSIONS"
+		},
+		{
+			"code": "DELETE_PERMISSIONS",
+			"parentCode": "PERMISSIONS",
+			"name": "DELETE PERMISSIONS"
+		}
+	]
+}

@@ -1,0 +1,3974 @@
+
+{
+	"id": "project.id",
+	"name": "dev_backend_epharmaApp",
+	"description": "",
+	"order": [],
+	"timestamp": 1497267117086,
+	"owner": "1151918",
+	"public": false,
+	"folders": [
+		{
+			"id": "chatMessageAttachments.id",
+			"name": "chatMessageAttachments",
+			"description": "",
+			"order": [
+				"chatMessageAttachments.getByCriteria",
+				"chatMessageAttachments.create",
+				"chatMessageAttachments.update",
+				"chatMessageAttachments.delete"
+			],
+			"owner": "1151918"
+		},
+		{
+			"id": "chatMessages.id",
+			"name": "chatMessages",
+			"description": "",
+			"order": [
+				"chatMessages.getByCriteria",
+				"chatMessages.create",
+				"chatMessages.update",
+				"chatMessages.delete"
+			],
+			"owner": "1151918"
+		},
+		{
+			"id": "chatRoomParticipants.id",
+			"name": "chatRoomParticipants",
+			"description": "",
+			"order": [
+				"chatRoomParticipants.getByCriteria",
+				"chatRoomParticipants.create",
+				"chatRoomParticipants.update",
+				"chatRoomParticipants.delete"
+			],
+			"owner": "1151918"
+		},
+		{
+			"id": "chatRooms.id",
+			"name": "chatRooms",
+			"description": "",
+			"order": [
+				"chatRooms.getByCriteria",
+				"chatRooms.create",
+				"chatRooms.update",
+				"chatRooms.delete"
+			],
+			"owner": "1151918"
+		},
+		{
+			"id": "clientRoles.id",
+			"name": "clientRoles",
+			"description": "",
+			"order": [
+				"clientRoles.getByCriteria",
+				"clientRoles.create",
+				"clientRoles.update",
+				"clientRoles.delete"
+			],
+			"owner": "1151918"
+		},
+		{
+			"id": "clients.id",
+			"name": "clients",
+			"description": "",
+			"order": [
+				"clients.getByCriteria",
+				"clients.create",
+				"clients.update",
+				"clients.delete"
+			],
+			"owner": "1151918"
+		},
+		{
+			"id": "deliveries.id",
+			"name": "deliveries",
+			"description": "",
+			"order": [
+				"deliveries.getByCriteria",
+				"deliveries.create",
+				"deliveries.update",
+				"deliveries.delete"
+			],
+			"owner": "1151918"
+		},
+		{
+			"id": "deliveryPersonProfiles.id",
+			"name": "deliveryPersonProfiles",
+			"description": "",
+			"order": [
+				"deliveryPersonProfiles.getByCriteria",
+				"deliveryPersonProfiles.create",
+				"deliveryPersonProfiles.update",
+				"deliveryPersonProfiles.delete"
+			],
+			"owner": "1151918"
+		},
+		{
+			"id": "manufacturers.id",
+			"name": "manufacturers",
+			"description": "",
+			"order": [
+				"manufacturers.getByCriteria",
+				"manufacturers.create",
+				"manufacturers.update",
+				"manufacturers.delete"
+			],
+			"owner": "1151918"
+		},
+		{
+			"id": "notices.id",
+			"name": "notices",
+			"description": "",
+			"order": [
+				"notices.getByCriteria",
+				"notices.create",
+				"notices.update",
+				"notices.delete"
+			],
+			"owner": "1151918"
+		},
+		{
+			"id": "orderItems.id",
+			"name": "orderItems",
+			"description": "",
+			"order": [
+				"orderItems.getByCriteria",
+				"orderItems.create",
+				"orderItems.update",
+				"orderItems.delete"
+			],
+			"owner": "1151918"
+		},
+		{
+			"id": "orders.id",
+			"name": "orders",
+			"description": "",
+			"order": [
+				"orders.getByCriteria",
+				"orders.create",
+				"orders.update",
+				"orders.delete"
+			],
+			"owner": "1151918"
+		},
+		{
+			"id": "permissions.id",
+			"name": "permissions",
+			"description": "",
+			"order": [
+				"permissions.getByCriteria",
+				"permissions.create",
+				"permissions.update",
+				"permissions.delete"
+			],
+			"owner": "1151918"
+		},
+		{
+			"id": "pharmacies.id",
+			"name": "pharmacies",
+			"description": "",
+			"order": [
+				"pharmacies.getByCriteria",
+				"pharmacies.create",
+				"pharmacies.update",
+				"pharmacies.delete"
+			],
+			"owner": "1151918"
+		},
+		{
+			"id": "pharmacyRatings.id",
+			"name": "pharmacyRatings",
+			"description": "",
+			"order": [
+				"pharmacyRatings.getByCriteria",
+				"pharmacyRatings.create",
+				"pharmacyRatings.update",
+				"pharmacyRatings.delete"
+			],
+			"owner": "1151918"
+		},
+		{
+			"id": "prescriptionItems.id",
+			"name": "prescriptionItems",
+			"description": "",
+			"order": [
+				"prescriptionItems.getByCriteria",
+				"prescriptionItems.create",
+				"prescriptionItems.update",
+				"prescriptionItems.delete"
+			],
+			"owner": "1151918"
+		},
+		{
+			"id": "prescriptions.id",
+			"name": "prescriptions",
+			"description": "",
+			"order": [
+				"prescriptions.getByCriteria",
+				"prescriptions.create",
+				"prescriptions.update",
+				"prescriptions.delete"
+			],
+			"owner": "1151918"
+		},
+		{
+			"id": "productCategories.id",
+			"name": "productCategories",
+			"description": "",
+			"order": [
+				"productCategories.getByCriteria",
+				"productCategories.create",
+				"productCategories.update",
+				"productCategories.delete"
+			],
+			"owner": "1151918"
+		},
+		{
+			"id": "productMovements.id",
+			"name": "productMovements",
+			"description": "",
+			"order": [
+				"productMovements.getByCriteria",
+				"productMovements.create",
+				"productMovements.update",
+				"productMovements.delete"
+			],
+			"owner": "1151918"
+		},
+		{
+			"id": "products.id",
+			"name": "products",
+			"description": "",
+			"order": [
+				"products.getByCriteria",
+				"products.create",
+				"products.update",
+				"products.delete"
+			],
+			"owner": "1151918"
+		},
+		{
+			"id": "purchaseOrderItems.id",
+			"name": "purchaseOrderItems",
+			"description": "",
+			"order": [
+				"purchaseOrderItems.getByCriteria",
+				"purchaseOrderItems.create",
+				"purchaseOrderItems.update",
+				"purchaseOrderItems.delete"
+			],
+			"owner": "1151918"
+		},
+		{
+			"id": "purchaseOrders.id",
+			"name": "purchaseOrders",
+			"description": "",
+			"order": [
+				"purchaseOrders.getByCriteria",
+				"purchaseOrders.create",
+				"purchaseOrders.update",
+				"purchaseOrders.delete"
+			],
+			"owner": "1151918"
+		},
+		{
+			"id": "rolePermissions.id",
+			"name": "rolePermissions",
+			"description": "",
+			"order": [
+				"rolePermissions.getByCriteria",
+				"rolePermissions.create",
+				"rolePermissions.update",
+				"rolePermissions.delete"
+			],
+			"owner": "1151918"
+		},
+		{
+			"id": "roles.id",
+			"name": "roles",
+			"description": "",
+			"order": [
+				"roles.getByCriteria",
+				"roles.create",
+				"roles.update",
+				"roles.delete"
+			],
+			"owner": "1151918"
+		},
+		{
+			"id": "stock.id",
+			"name": "stock",
+			"description": "",
+			"order": [
+				"stock.getByCriteria",
+				"stock.create",
+				"stock.update",
+				"stock.delete"
+			],
+			"owner": "1151918"
+		},
+		{
+			"id": "stockAlerts.id",
+			"name": "stockAlerts",
+			"description": "",
+			"order": [
+				"stockAlerts.getByCriteria",
+				"stockAlerts.create",
+				"stockAlerts.update",
+				"stockAlerts.delete"
+			],
+			"owner": "1151918"
+		},
+		{
+			"id": "stockAudit.id",
+			"name": "stockAudit",
+			"description": "",
+			"order": [
+				"stockAudit.getByCriteria",
+				"stockAudit.create",
+				"stockAudit.update",
+				"stockAudit.delete"
+			],
+			"owner": "1151918"
+		},
+		{
+			"id": "userRatings.id",
+			"name": "userRatings",
+			"description": "",
+			"order": [
+				"userRatings.getByCriteria",
+				"userRatings.create",
+				"userRatings.update",
+				"userRatings.delete"
+			],
+			"owner": "1151918"
+		},
+		{
+			"id": "userRoles.id",
+			"name": "userRoles",
+			"description": "",
+			"order": [
+				"userRoles.getByCriteria",
+				"userRoles.create",
+				"userRoles.update",
+				"userRoles.delete"
+			],
+			"owner": "1151918"
+		},
+		{
+			"id": "users.id",
+			"name": "users",
+			"description": "",
+			"order": [
+				"users.getByCriteria",
+				"users.create",
+				"users.update",
+				"users.delete"
+			],
+			"owner": "1151918"
+		}
+	],
+	"requests": [
+		{
+			"id": "chatMessageAttachments.create",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/chatMessageAttachments/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "chatMessageAttachments-create",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"messageId\": \"\",\n\t\t\t\"fileType\": \"\",\n\t\t\t\"fileName\": \"\",\n\t\t\t\"fileData\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "chatMessageAttachments.update",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/chatMessageAttachments/update",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "chatMessageAttachments-update",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"attachmentId\": \"\",\n\t\t\t\"messageId\": \"\",\n\t\t\t\"fileType\": \"\",\n\t\t\t\"fileName\": \"\",\n\t\t\t\"fileData\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "chatMessageAttachments.delete",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/chatMessageAttachments/delete",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "chatMessageAttachments-delete",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"attachmentId\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "chatMessageAttachments.getByCriteria",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/chatMessageAttachments/getByCriteria",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439015040,
+			"name": "chatMessageAttachments-getByCriteria",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"isSimpleLoading\":false,\n\t\"data\":{\n  \t\t\"attachmentId\": \"\",\n\t\t\"messageId\": \"\",\n\t\t\"fileType\": \"\",\n\t\t\"fileName\": \"\",\n\t\t\"fileData\": \"\",\n\t\t\"recordStatus\": \"\",\n\t\t\"createdAt\": \"\",\n\t\t\"createdBy\": \"\",\n\t\t\"updatedAt\": \"\",\n\t\t\"updatedBy\": \"\",\n\t\t\"isDeleted\": \"\",\n\t\t\"deletedAt\": \"\",\n\t\t\"deletedBy\": \"\"\n\t}  \n}"
+		},
+		{
+			"id": "chatMessages.create",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/chatMessages/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "chatMessages-create",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"roomId\": \"\",\n\t\t\t\"senderId\": \"\",\n\t\t\t\"message\": \"\",\n\t\t\t\"sentAt\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "chatMessages.update",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/chatMessages/update",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "chatMessages-update",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"messageId\": \"\",\n\t\t\t\"roomId\": \"\",\n\t\t\t\"senderId\": \"\",\n\t\t\t\"message\": \"\",\n\t\t\t\"sentAt\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "chatMessages.delete",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/chatMessages/delete",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "chatMessages-delete",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"messageId\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "chatMessages.getByCriteria",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/chatMessages/getByCriteria",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439015040,
+			"name": "chatMessages-getByCriteria",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"isSimpleLoading\":false,\n\t\"data\":{\n  \t\t\"messageId\": \"\",\n\t\t\"roomId\": \"\",\n\t\t\"senderId\": \"\",\n\t\t\"message\": \"\",\n\t\t\"sentAt\": \"\",\n\t\t\"recordStatus\": \"\",\n\t\t\"createdAt\": \"\",\n\t\t\"createdBy\": \"\",\n\t\t\"updatedAt\": \"\",\n\t\t\"updatedBy\": \"\",\n\t\t\"isDeleted\": \"\",\n\t\t\"deletedAt\": \"\",\n\t\t\"deletedBy\": \"\"\n\t}  \n}"
+		},
+		{
+			"id": "chatRoomParticipants.create",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/chatRoomParticipants/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "chatRoomParticipants-create",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "chatRoomParticipants.update",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/chatRoomParticipants/update",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "chatRoomParticipants-update",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"roomId\": \"\",\n\t\t\t\"userId\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "chatRoomParticipants.delete",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/chatRoomParticipants/delete",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "chatRoomParticipants-delete",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"roomId\": \"\",\n\t\t\t\"userId\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "chatRoomParticipants.getByCriteria",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/chatRoomParticipants/getByCriteria",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439015040,
+			"name": "chatRoomParticipants-getByCriteria",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"isSimpleLoading\":false,\n\t\"data\":{\n  \t\t\"roomId\": \"\",\n\t\t\"userId\": \"\",\n\t\t\"recordStatus\": \"\",\n\t\t\"createdAt\": \"\",\n\t\t\"createdBy\": \"\",\n\t\t\"updatedAt\": \"\",\n\t\t\"updatedBy\": \"\",\n\t\t\"isDeleted\": \"\",\n\t\t\"deletedAt\": \"\",\n\t\t\"deletedBy\": \"\"\n\t}  \n}"
+		},
+		{
+			"id": "chatRooms.create",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/chatRooms/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "chatRooms-create",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"roomName\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "chatRooms.update",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/chatRooms/update",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "chatRooms-update",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"roomId\": \"\",\n\t\t\t\"roomName\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "chatRooms.delete",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/chatRooms/delete",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "chatRooms-delete",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"roomId\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "chatRooms.getByCriteria",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/chatRooms/getByCriteria",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439015040,
+			"name": "chatRooms-getByCriteria",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"isSimpleLoading\":false,\n\t\"data\":{\n  \t\t\"roomId\": \"\",\n\t\t\"roomName\": \"\",\n\t\t\"recordStatus\": \"\",\n\t\t\"createdAt\": \"\",\n\t\t\"createdBy\": \"\",\n\t\t\"updatedAt\": \"\",\n\t\t\"updatedBy\": \"\",\n\t\t\"isDeleted\": \"\",\n\t\t\"deletedAt\": \"\",\n\t\t\"deletedBy\": \"\"\n\t}  \n}"
+		},
+		{
+			"id": "clientRoles.create",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/clientRoles/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "clientRoles-create",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "clientRoles.update",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/clientRoles/update",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "clientRoles-update",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"clientId\": \"\",\n\t\t\t\"roleId\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "clientRoles.delete",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/clientRoles/delete",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "clientRoles-delete",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"clientId\": \"\",\n\t\t\t\"roleId\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "clientRoles.getByCriteria",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/clientRoles/getByCriteria",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439015040,
+			"name": "clientRoles-getByCriteria",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"isSimpleLoading\":false,\n\t\"data\":{\n  \t\t\"clientId\": \"\",\n\t\t\"roleId\": \"\",\n\t\t\"recordStatus\": \"\",\n\t\t\"createdAt\": \"\",\n\t\t\"createdBy\": \"\",\n\t\t\"updatedAt\": \"\",\n\t\t\"updatedBy\": \"\",\n\t\t\"isDeleted\": \"\",\n\t\t\"deletedAt\": \"\",\n\t\t\"deletedBy\": \"\"\n\t}  \n}"
+		},
+		{
+			"id": "clients.create",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/clients/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "clients-create",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"loginClient\": \"\",\n\t\t\t\"firstName\": \"\",\n\t\t\t\"lastName\": \"\",\n\t\t\t\"email\": \"\",\n\t\t\t\"phone\": \"\",\n\t\t\t\"address\": \"\",\n\t\t\t\"city\": \"\",\n\t\t\t\"location\": \"\",\n\t\t\t\"birthday\": \"\",\n\t\t\t\"photo\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "clients.update",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/clients/update",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "clients-update",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"clientId\": \"\",\n\t\t\t\"loginClient\": \"\",\n\t\t\t\"firstName\": \"\",\n\t\t\t\"lastName\": \"\",\n\t\t\t\"email\": \"\",\n\t\t\t\"phone\": \"\",\n\t\t\t\"address\": \"\",\n\t\t\t\"city\": \"\",\n\t\t\t\"location\": \"\",\n\t\t\t\"birthday\": \"\",\n\t\t\t\"photo\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "clients.delete",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/clients/delete",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "clients-delete",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"clientId\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "clients.getByCriteria",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/clients/getByCriteria",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439015040,
+			"name": "clients-getByCriteria",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"isSimpleLoading\":false,\n\t\"data\":{\n  \t\t\"clientId\": \"\",\n\t\t\"loginClient\": \"\",\n\t\t\"firstName\": \"\",\n\t\t\"lastName\": \"\",\n\t\t\"email\": \"\",\n\t\t\"phone\": \"\",\n\t\t\"address\": \"\",\n\t\t\"city\": \"\",\n\t\t\"location\": \"\",\n\t\t\"birthday\": \"\",\n\t\t\"photo\": \"\",\n\t\t\"recordStatus\": \"\",\n\t\t\"createdAt\": \"\",\n\t\t\"createdBy\": \"\",\n\t\t\"updatedAt\": \"\",\n\t\t\"updatedBy\": \"\",\n\t\t\"isDeleted\": \"\",\n\t\t\"deletedAt\": \"\",\n\t\t\"deletedBy\": \"\"\n\t}  \n}"
+		},
+		{
+			"id": "deliveries.create",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/deliveries/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "deliveries-create",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"orderId\": \"\",\n\t\t\t\"pharmacyId\": \"\",\n\t\t\t\"assignedTo\": \"\",\n\t\t\t\"deliveryStatus\": \"\",\n\t\t\t\"expectedDeliveryDate\": \"\",\n\t\t\t\"actualDeliveryDate\": \"\",\n\t\t\t\"trackingNumber\": \"\",\n\t\t\t\"deliveryMethod\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "deliveries.update",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/deliveries/update",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "deliveries-update",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"deliveryId\": \"\",\n\t\t\t\"orderId\": \"\",\n\t\t\t\"pharmacyId\": \"\",\n\t\t\t\"assignedTo\": \"\",\n\t\t\t\"deliveryStatus\": \"\",\n\t\t\t\"expectedDeliveryDate\": \"\",\n\t\t\t\"actualDeliveryDate\": \"\",\n\t\t\t\"trackingNumber\": \"\",\n\t\t\t\"deliveryMethod\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "deliveries.delete",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/deliveries/delete",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "deliveries-delete",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"deliveryId\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "deliveries.getByCriteria",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/deliveries/getByCriteria",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439015040,
+			"name": "deliveries-getByCriteria",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"isSimpleLoading\":false,\n\t\"data\":{\n  \t\t\"deliveryId\": \"\",\n\t\t\"orderId\": \"\",\n\t\t\"pharmacyId\": \"\",\n\t\t\"assignedTo\": \"\",\n\t\t\"deliveryStatus\": \"\",\n\t\t\"expectedDeliveryDate\": \"\",\n\t\t\"actualDeliveryDate\": \"\",\n\t\t\"trackingNumber\": \"\",\n\t\t\"deliveryMethod\": \"\",\n\t\t\"recordStatus\": \"\",\n\t\t\"createdAt\": \"\",\n\t\t\"createdBy\": \"\",\n\t\t\"updatedAt\": \"\",\n\t\t\"updatedBy\": \"\",\n\t\t\"isDeleted\": \"\",\n\t\t\"deletedAt\": \"\",\n\t\t\"deletedBy\": \"\"\n\t}  \n}"
+		},
+		{
+			"id": "deliveryPersonProfiles.create",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/deliveryPersonProfiles/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "deliveryPersonProfiles-create",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"status\": \"\",\n\t\t\t\"registeredDate\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "deliveryPersonProfiles.update",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/deliveryPersonProfiles/update",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "deliveryPersonProfiles-update",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"userId\": \"\",\n\t\t\t\"status\": \"\",\n\t\t\t\"registeredDate\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "deliveryPersonProfiles.delete",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/deliveryPersonProfiles/delete",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "deliveryPersonProfiles-delete",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"userId\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "deliveryPersonProfiles.getByCriteria",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/deliveryPersonProfiles/getByCriteria",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439015040,
+			"name": "deliveryPersonProfiles-getByCriteria",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"isSimpleLoading\":false,\n\t\"data\":{\n  \t\t\"userId\": \"\",\n\t\t\"status\": \"\",\n\t\t\"registeredDate\": \"\",\n\t\t\"recordStatus\": \"\",\n\t\t\"createdAt\": \"\",\n\t\t\"createdBy\": \"\",\n\t\t\"updatedAt\": \"\",\n\t\t\"updatedBy\": \"\",\n\t\t\"isDeleted\": \"\",\n\t\t\"deletedAt\": \"\",\n\t\t\"deletedBy\": \"\"\n\t}  \n}"
+		},
+		{
+			"id": "manufacturers.create",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/manufacturers/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "manufacturers-create",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"manufacturerName\": \"\",\n\t\t\t\"contactEmail\": \"\",\n\t\t\t\"phone\": \"\",\n\t\t\t\"address\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "manufacturers.update",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/manufacturers/update",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "manufacturers-update",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"manufacturerId\": \"\",\n\t\t\t\"manufacturerName\": \"\",\n\t\t\t\"contactEmail\": \"\",\n\t\t\t\"phone\": \"\",\n\t\t\t\"address\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "manufacturers.delete",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/manufacturers/delete",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "manufacturers-delete",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"manufacturerId\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "manufacturers.getByCriteria",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/manufacturers/getByCriteria",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439015040,
+			"name": "manufacturers-getByCriteria",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"isSimpleLoading\":false,\n\t\"data\":{\n  \t\t\"manufacturerId\": \"\",\n\t\t\"manufacturerName\": \"\",\n\t\t\"contactEmail\": \"\",\n\t\t\"phone\": \"\",\n\t\t\"address\": \"\",\n\t\t\"recordStatus\": \"\",\n\t\t\"createdAt\": \"\",\n\t\t\"createdBy\": \"\",\n\t\t\"updatedAt\": \"\",\n\t\t\"updatedBy\": \"\",\n\t\t\"isDeleted\": \"\",\n\t\t\"deletedAt\": \"\",\n\t\t\"deletedBy\": \"\"\n\t}  \n}"
+		},
+		{
+			"id": "notices.create",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/notices/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "notices-create",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"productId\": \"\",\n\t\t\t\"title\": \"\",\n\t\t\t\"content\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "notices.update",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/notices/update",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "notices-update",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"noticeId\": \"\",\n\t\t\t\"productId\": \"\",\n\t\t\t\"title\": \"\",\n\t\t\t\"content\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "notices.delete",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/notices/delete",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "notices-delete",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"noticeId\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "notices.getByCriteria",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/notices/getByCriteria",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439015040,
+			"name": "notices-getByCriteria",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"isSimpleLoading\":false,\n\t\"data\":{\n  \t\t\"noticeId\": \"\",\n\t\t\"productId\": \"\",\n\t\t\"title\": \"\",\n\t\t\"content\": \"\",\n\t\t\"recordStatus\": \"\",\n\t\t\"createdAt\": \"\",\n\t\t\"createdBy\": \"\",\n\t\t\"updatedAt\": \"\",\n\t\t\"updatedBy\": \"\",\n\t\t\"isDeleted\": \"\",\n\t\t\"deletedAt\": \"\",\n\t\t\"deletedBy\": \"\"\n\t}  \n}"
+		},
+		{
+			"id": "orderItems.create",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/orderItems/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "orderItems-create",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"orderId\": \"\",\n\t\t\t\"productId\": \"\",\n\t\t\t\"quantity\": \"\",\n\t\t\t\"unitPrice\": \"\",\n\t\t\t\"totalPrice\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "orderItems.update",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/orderItems/update",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "orderItems-update",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"orderItemId\": \"\",\n\t\t\t\"orderId\": \"\",\n\t\t\t\"productId\": \"\",\n\t\t\t\"quantity\": \"\",\n\t\t\t\"unitPrice\": \"\",\n\t\t\t\"totalPrice\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "orderItems.delete",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/orderItems/delete",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "orderItems-delete",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"orderItemId\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "orderItems.getByCriteria",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/orderItems/getByCriteria",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439015040,
+			"name": "orderItems-getByCriteria",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"isSimpleLoading\":false,\n\t\"data\":{\n  \t\t\"orderItemId\": \"\",\n\t\t\"orderId\": \"\",\n\t\t\"productId\": \"\",\n\t\t\"quantity\": \"\",\n\t\t\"unitPrice\": \"\",\n\t\t\"totalPrice\": \"\",\n\t\t\"recordStatus\": \"\",\n\t\t\"createdAt\": \"\",\n\t\t\"createdBy\": \"\",\n\t\t\"updatedAt\": \"\",\n\t\t\"updatedBy\": \"\",\n\t\t\"isDeleted\": \"\",\n\t\t\"deletedAt\": \"\",\n\t\t\"deletedBy\": \"\"\n\t}  \n}"
+		},
+		{
+			"id": "orders.create",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/orders/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "orders-create",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"clientId\": \"\",\n\t\t\t\"orderDate\": \"\",\n\t\t\t\"orderStatus\": \"\",\n\t\t\t\"totalAmount\": \"\",\n\t\t\t\"paymentMethod\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "orders.update",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/orders/update",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "orders-update",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"orderId\": \"\",\n\t\t\t\"clientId\": \"\",\n\t\t\t\"orderDate\": \"\",\n\t\t\t\"orderStatus\": \"\",\n\t\t\t\"totalAmount\": \"\",\n\t\t\t\"paymentMethod\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "orders.delete",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/orders/delete",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "orders-delete",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"orderId\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "orders.getByCriteria",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/orders/getByCriteria",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439015040,
+			"name": "orders-getByCriteria",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"isSimpleLoading\":false,\n\t\"data\":{\n  \t\t\"orderId\": \"\",\n\t\t\"clientId\": \"\",\n\t\t\"orderDate\": \"\",\n\t\t\"orderStatus\": \"\",\n\t\t\"totalAmount\": \"\",\n\t\t\"paymentMethod\": \"\",\n\t\t\"recordStatus\": \"\",\n\t\t\"createdAt\": \"\",\n\t\t\"createdBy\": \"\",\n\t\t\"updatedAt\": \"\",\n\t\t\"updatedBy\": \"\",\n\t\t\"isDeleted\": \"\",\n\t\t\"deletedAt\": \"\",\n\t\t\"deletedBy\": \"\"\n\t}  \n}"
+		},
+		{
+			"id": "permissions.create",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/permissions/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "permissions-create",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"permissionName\": \"\",\n\t\t\t\"permissionDescription\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "permissions.update",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/permissions/update",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "permissions-update",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"permissionId\": \"\",\n\t\t\t\"permissionName\": \"\",\n\t\t\t\"permissionDescription\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "permissions.delete",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/permissions/delete",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "permissions-delete",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"permissionId\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "permissions.getByCriteria",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/permissions/getByCriteria",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439015040,
+			"name": "permissions-getByCriteria",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"isSimpleLoading\":false,\n\t\"data\":{\n  \t\t\"permissionId\": \"\",\n\t\t\"permissionName\": \"\",\n\t\t\"permissionDescription\": \"\",\n\t\t\"recordStatus\": \"\",\n\t\t\"createdAt\": \"\",\n\t\t\"createdBy\": \"\",\n\t\t\"updatedAt\": \"\",\n\t\t\"updatedBy\": \"\",\n\t\t\"isDeleted\": \"\",\n\t\t\"deletedAt\": \"\",\n\t\t\"deletedBy\": \"\"\n\t}  \n}"
+		},
+		{
+			"id": "pharmacies.create",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/pharmacies/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "pharmacies-create",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"pharmacyName\": \"\",\n\t\t\t\"address\": \"\",\n\t\t\t\"city\": \"\",\n\t\t\t\"country\": \"\",\n\t\t\t\"phone\": \"\",\n\t\t\t\"location\": \"\",\n\t\t\t\"logo\": \"\",\n\t\t\t\"autorisation\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "pharmacies.update",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/pharmacies/update",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "pharmacies-update",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"pharmacyId\": \"\",\n\t\t\t\"pharmacyName\": \"\",\n\t\t\t\"address\": \"\",\n\t\t\t\"city\": \"\",\n\t\t\t\"country\": \"\",\n\t\t\t\"phone\": \"\",\n\t\t\t\"location\": \"\",\n\t\t\t\"logo\": \"\",\n\t\t\t\"autorisation\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "pharmacies.delete",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/pharmacies/delete",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "pharmacies-delete",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"pharmacyId\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "pharmacies.getByCriteria",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/pharmacies/getByCriteria",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439015040,
+			"name": "pharmacies-getByCriteria",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"isSimpleLoading\":false,\n\t\"data\":{\n  \t\t\"pharmacyId\": \"\",\n\t\t\"pharmacyName\": \"\",\n\t\t\"address\": \"\",\n\t\t\"city\": \"\",\n\t\t\"country\": \"\",\n\t\t\"phone\": \"\",\n\t\t\"location\": \"\",\n\t\t\"logo\": \"\",\n\t\t\"autorisation\": \"\",\n\t\t\"recordStatus\": \"\",\n\t\t\"createdAt\": \"\",\n\t\t\"createdBy\": \"\",\n\t\t\"updatedAt\": \"\",\n\t\t\"updatedBy\": \"\",\n\t\t\"isDeleted\": \"\",\n\t\t\"deletedAt\": \"\",\n\t\t\"deletedBy\": \"\"\n\t}  \n}"
+		},
+		{
+			"id": "pharmacyRatings.create",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/pharmacyRatings/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "pharmacyRatings-create",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"pharmacyId\": \"\",\n\t\t\t\"clientId\": \"\",\n\t\t\t\"ratingValue\": \"\",\n\t\t\t\"comment\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "pharmacyRatings.update",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/pharmacyRatings/update",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "pharmacyRatings-update",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"ratingId\": \"\",\n\t\t\t\"pharmacyId\": \"\",\n\t\t\t\"clientId\": \"\",\n\t\t\t\"ratingValue\": \"\",\n\t\t\t\"comment\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "pharmacyRatings.delete",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/pharmacyRatings/delete",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "pharmacyRatings-delete",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"ratingId\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "pharmacyRatings.getByCriteria",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/pharmacyRatings/getByCriteria",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439015040,
+			"name": "pharmacyRatings-getByCriteria",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"isSimpleLoading\":false,\n\t\"data\":{\n  \t\t\"ratingId\": \"\",\n\t\t\"pharmacyId\": \"\",\n\t\t\"clientId\": \"\",\n\t\t\"ratingValue\": \"\",\n\t\t\"comment\": \"\",\n\t\t\"recordStatus\": \"\",\n\t\t\"createdAt\": \"\",\n\t\t\"createdBy\": \"\",\n\t\t\"updatedAt\": \"\",\n\t\t\"updatedBy\": \"\",\n\t\t\"isDeleted\": \"\",\n\t\t\"deletedAt\": \"\",\n\t\t\"deletedBy\": \"\"\n\t}  \n}"
+		},
+		{
+			"id": "prescriptionItems.create",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/prescriptionItems/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "prescriptionItems-create",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"prescriptionId\": \"\",\n\t\t\t\"productId\": \"\",\n\t\t\t\"dosage\": \"\",\n\t\t\t\"frequency\": \"\",\n\t\t\t\"duration\": \"\",\n\t\t\t\"notes\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "prescriptionItems.update",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/prescriptionItems/update",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "prescriptionItems-update",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"prescriptionItemId\": \"\",\n\t\t\t\"prescriptionId\": \"\",\n\t\t\t\"productId\": \"\",\n\t\t\t\"dosage\": \"\",\n\t\t\t\"frequency\": \"\",\n\t\t\t\"duration\": \"\",\n\t\t\t\"notes\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "prescriptionItems.delete",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/prescriptionItems/delete",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "prescriptionItems-delete",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"prescriptionItemId\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "prescriptionItems.getByCriteria",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/prescriptionItems/getByCriteria",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439015040,
+			"name": "prescriptionItems-getByCriteria",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"isSimpleLoading\":false,\n\t\"data\":{\n  \t\t\"prescriptionItemId\": \"\",\n\t\t\"prescriptionId\": \"\",\n\t\t\"productId\": \"\",\n\t\t\"dosage\": \"\",\n\t\t\"frequency\": \"\",\n\t\t\"duration\": \"\",\n\t\t\"notes\": \"\",\n\t\t\"recordStatus\": \"\",\n\t\t\"createdAt\": \"\",\n\t\t\"createdBy\": \"\",\n\t\t\"updatedAt\": \"\",\n\t\t\"updatedBy\": \"\",\n\t\t\"isDeleted\": \"\",\n\t\t\"deletedAt\": \"\",\n\t\t\"deletedBy\": \"\"\n\t}  \n}"
+		},
+		{
+			"id": "prescriptions.create",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/prescriptions/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "prescriptions-create",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"clientId\": \"\",\n\t\t\t\"prescribingDoctor\": \"\",\n\t\t\t\"dateIssued\": \"\",\n\t\t\t\"dateExpiration\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "prescriptions.update",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/prescriptions/update",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "prescriptions-update",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"prescriptionId\": \"\",\n\t\t\t\"clientId\": \"\",\n\t\t\t\"prescribingDoctor\": \"\",\n\t\t\t\"dateIssued\": \"\",\n\t\t\t\"dateExpiration\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "prescriptions.delete",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/prescriptions/delete",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "prescriptions-delete",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"prescriptionId\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "prescriptions.getByCriteria",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/prescriptions/getByCriteria",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439015040,
+			"name": "prescriptions-getByCriteria",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"isSimpleLoading\":false,\n\t\"data\":{\n  \t\t\"prescriptionId\": \"\",\n\t\t\"clientId\": \"\",\n\t\t\"prescribingDoctor\": \"\",\n\t\t\"dateIssued\": \"\",\n\t\t\"dateExpiration\": \"\",\n\t\t\"recordStatus\": \"\",\n\t\t\"createdAt\": \"\",\n\t\t\"createdBy\": \"\",\n\t\t\"updatedAt\": \"\",\n\t\t\"updatedBy\": \"\",\n\t\t\"isDeleted\": \"\",\n\t\t\"deletedAt\": \"\",\n\t\t\"deletedBy\": \"\"\n\t}  \n}"
+		},
+		{
+			"id": "productCategories.create",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/productCategories/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "productCategories-create",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"categoryName\": \"\",\n\t\t\t\"categoryDescription\": \"\",\n\t\t\t\"parentCategoryId\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "productCategories.update",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/productCategories/update",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "productCategories-update",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"categoryId\": \"\",\n\t\t\t\"categoryName\": \"\",\n\t\t\t\"categoryDescription\": \"\",\n\t\t\t\"parentCategoryId\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "productCategories.delete",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/productCategories/delete",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "productCategories-delete",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"categoryId\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "productCategories.getByCriteria",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/productCategories/getByCriteria",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439015040,
+			"name": "productCategories-getByCriteria",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"isSimpleLoading\":false,\n\t\"data\":{\n  \t\t\"categoryId\": \"\",\n\t\t\"categoryName\": \"\",\n\t\t\"categoryDescription\": \"\",\n\t\t\"parentCategoryId\": \"\",\n\t\t\"recordStatus\": \"\",\n\t\t\"createdAt\": \"\",\n\t\t\"createdBy\": \"\",\n\t\t\"updatedAt\": \"\",\n\t\t\"updatedBy\": \"\",\n\t\t\"isDeleted\": \"\",\n\t\t\"deletedAt\": \"\",\n\t\t\"deletedBy\": \"\"\n\t}  \n}"
+		},
+		{
+			"id": "productMovements.create",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/productMovements/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "productMovements-create",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"productId\": \"\",\n\t\t\t\"fromEntity\": \"\",\n\t\t\t\"toEntity\": \"\",\n\t\t\t\"movementDate\": \"\",\n\t\t\t\"quantity\": \"\",\n\t\t\t\"remarks\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "productMovements.update",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/productMovements/update",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "productMovements-update",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"movementId\": \"\",\n\t\t\t\"productId\": \"\",\n\t\t\t\"fromEntity\": \"\",\n\t\t\t\"toEntity\": \"\",\n\t\t\t\"movementDate\": \"\",\n\t\t\t\"quantity\": \"\",\n\t\t\t\"remarks\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "productMovements.delete",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/productMovements/delete",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "productMovements-delete",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"movementId\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "productMovements.getByCriteria",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/productMovements/getByCriteria",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439015040,
+			"name": "productMovements-getByCriteria",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"isSimpleLoading\":false,\n\t\"data\":{\n  \t\t\"movementId\": \"\",\n\t\t\"productId\": \"\",\n\t\t\"fromEntity\": \"\",\n\t\t\"toEntity\": \"\",\n\t\t\"movementDate\": \"\",\n\t\t\"quantity\": \"\",\n\t\t\"remarks\": \"\",\n\t\t\"recordStatus\": \"\",\n\t\t\"createdAt\": \"\",\n\t\t\"createdBy\": \"\",\n\t\t\"updatedAt\": \"\",\n\t\t\"updatedBy\": \"\",\n\t\t\"isDeleted\": \"\",\n\t\t\"deletedAt\": \"\",\n\t\t\"deletedBy\": \"\"\n\t}  \n}"
+		},
+		{
+			"id": "products.create",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/products/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "products-create",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"productName\": \"\",\n\t\t\t\"genericName\": \"\",\n\t\t\t\"brandName\": \"\",\n\t\t\t\"description\": \"\",\n\t\t\t\"categoryId\": \"\",\n\t\t\t\"dosage\": \"\",\n\t\t\t\"price\": \"\",\n\t\t\t\"barcode\": \"\",\n\t\t\t\"expirationDate\": \"\",\n\t\t\t\"manufacturerId\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "products.update",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/products/update",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "products-update",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"productId\": \"\",\n\t\t\t\"productName\": \"\",\n\t\t\t\"genericName\": \"\",\n\t\t\t\"brandName\": \"\",\n\t\t\t\"description\": \"\",\n\t\t\t\"categoryId\": \"\",\n\t\t\t\"dosage\": \"\",\n\t\t\t\"price\": \"\",\n\t\t\t\"barcode\": \"\",\n\t\t\t\"expirationDate\": \"\",\n\t\t\t\"manufacturerId\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "products.delete",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/products/delete",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "products-delete",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"productId\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "products.getByCriteria",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/products/getByCriteria",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439015040,
+			"name": "products-getByCriteria",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"isSimpleLoading\":false,\n\t\"data\":{\n  \t\t\"productId\": \"\",\n\t\t\"productName\": \"\",\n\t\t\"genericName\": \"\",\n\t\t\"brandName\": \"\",\n\t\t\"description\": \"\",\n\t\t\"categoryId\": \"\",\n\t\t\"dosage\": \"\",\n\t\t\"price\": \"\",\n\t\t\"barcode\": \"\",\n\t\t\"expirationDate\": \"\",\n\t\t\"manufacturerId\": \"\",\n\t\t\"recordStatus\": \"\",\n\t\t\"createdAt\": \"\",\n\t\t\"createdBy\": \"\",\n\t\t\"updatedAt\": \"\",\n\t\t\"updatedBy\": \"\",\n\t\t\"isDeleted\": \"\",\n\t\t\"deletedAt\": \"\",\n\t\t\"deletedBy\": \"\"\n\t}  \n}"
+		},
+		{
+			"id": "purchaseOrderItems.create",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/purchaseOrderItems/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "purchaseOrderItems-create",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"poId\": \"\",\n\t\t\t\"productId\": \"\",\n\t\t\t\"quantity\": \"\",\n\t\t\t\"unitPrice\": \"\",\n\t\t\t\"totalPrice\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "purchaseOrderItems.update",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/purchaseOrderItems/update",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "purchaseOrderItems-update",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"poItemId\": \"\",\n\t\t\t\"poId\": \"\",\n\t\t\t\"productId\": \"\",\n\t\t\t\"quantity\": \"\",\n\t\t\t\"unitPrice\": \"\",\n\t\t\t\"totalPrice\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "purchaseOrderItems.delete",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/purchaseOrderItems/delete",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "purchaseOrderItems-delete",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"poItemId\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "purchaseOrderItems.getByCriteria",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/purchaseOrderItems/getByCriteria",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439015040,
+			"name": "purchaseOrderItems-getByCriteria",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"isSimpleLoading\":false,\n\t\"data\":{\n  \t\t\"poItemId\": \"\",\n\t\t\"poId\": \"\",\n\t\t\"productId\": \"\",\n\t\t\"quantity\": \"\",\n\t\t\"unitPrice\": \"\",\n\t\t\"totalPrice\": \"\",\n\t\t\"recordStatus\": \"\",\n\t\t\"createdAt\": \"\",\n\t\t\"createdBy\": \"\",\n\t\t\"updatedAt\": \"\",\n\t\t\"updatedBy\": \"\",\n\t\t\"isDeleted\": \"\",\n\t\t\"deletedAt\": \"\",\n\t\t\"deletedBy\": \"\"\n\t}  \n}"
+		},
+		{
+			"id": "purchaseOrders.create",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/purchaseOrders/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "purchaseOrders-create",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"pharmacyId\": \"\",\n\t\t\t\"manufacturerId\": \"\",\n\t\t\t\"orderDate\": \"\",\n\t\t\t\"status\": \"\",\n\t\t\t\"totalAmount\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "purchaseOrders.update",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/purchaseOrders/update",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "purchaseOrders-update",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"poId\": \"\",\n\t\t\t\"pharmacyId\": \"\",\n\t\t\t\"manufacturerId\": \"\",\n\t\t\t\"orderDate\": \"\",\n\t\t\t\"status\": \"\",\n\t\t\t\"totalAmount\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "purchaseOrders.delete",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/purchaseOrders/delete",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "purchaseOrders-delete",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"poId\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "purchaseOrders.getByCriteria",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/purchaseOrders/getByCriteria",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439015040,
+			"name": "purchaseOrders-getByCriteria",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"isSimpleLoading\":false,\n\t\"data\":{\n  \t\t\"poId\": \"\",\n\t\t\"pharmacyId\": \"\",\n\t\t\"manufacturerId\": \"\",\n\t\t\"orderDate\": \"\",\n\t\t\"status\": \"\",\n\t\t\"totalAmount\": \"\",\n\t\t\"recordStatus\": \"\",\n\t\t\"createdAt\": \"\",\n\t\t\"createdBy\": \"\",\n\t\t\"updatedAt\": \"\",\n\t\t\"updatedBy\": \"\",\n\t\t\"isDeleted\": \"\",\n\t\t\"deletedAt\": \"\",\n\t\t\"deletedBy\": \"\"\n\t}  \n}"
+		},
+		{
+			"id": "rolePermissions.create",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/rolePermissions/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "rolePermissions-create",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "rolePermissions.update",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/rolePermissions/update",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "rolePermissions-update",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"roleId\": \"\",\n\t\t\t\"permissionId\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "rolePermissions.delete",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/rolePermissions/delete",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "rolePermissions-delete",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"roleId\": \"\",\n\t\t\t\"permissionId\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "rolePermissions.getByCriteria",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/rolePermissions/getByCriteria",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439015040,
+			"name": "rolePermissions-getByCriteria",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"isSimpleLoading\":false,\n\t\"data\":{\n  \t\t\"roleId\": \"\",\n\t\t\"permissionId\": \"\",\n\t\t\"recordStatus\": \"\",\n\t\t\"createdAt\": \"\",\n\t\t\"createdBy\": \"\",\n\t\t\"updatedAt\": \"\",\n\t\t\"updatedBy\": \"\",\n\t\t\"isDeleted\": \"\",\n\t\t\"deletedAt\": \"\",\n\t\t\"deletedBy\": \"\"\n\t}  \n}"
+		},
+		{
+			"id": "roles.create",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/roles/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "roles-create",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"roleName\": \"\",\n\t\t\t\"roleDescription\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "roles.update",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/roles/update",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "roles-update",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"roleId\": \"\",\n\t\t\t\"roleName\": \"\",\n\t\t\t\"roleDescription\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "roles.delete",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/roles/delete",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "roles-delete",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"roleId\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "roles.getByCriteria",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/roles/getByCriteria",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439015040,
+			"name": "roles-getByCriteria",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"isSimpleLoading\":false,\n\t\"data\":{\n  \t\t\"roleId\": \"\",\n\t\t\"roleName\": \"\",\n\t\t\"roleDescription\": \"\",\n\t\t\"recordStatus\": \"\",\n\t\t\"createdAt\": \"\",\n\t\t\"createdBy\": \"\",\n\t\t\"updatedAt\": \"\",\n\t\t\"updatedBy\": \"\",\n\t\t\"isDeleted\": \"\",\n\t\t\"deletedAt\": \"\",\n\t\t\"deletedBy\": \"\"\n\t}  \n}"
+		},
+		{
+			"id": "stock.create",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/stock/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "stock-create",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"quantity\": \"\",\n\t\t\t\"reorderLevel\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "stock.update",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/stock/update",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "stock-update",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"pharmacyId\": \"\",\n\t\t\t\"productId\": \"\",\n\t\t\t\"quantity\": \"\",\n\t\t\t\"reorderLevel\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "stock.delete",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/stock/delete",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "stock-delete",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"pharmacyId\": \"\",\n\t\t\t\"productId\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "stock.getByCriteria",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/stock/getByCriteria",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439015040,
+			"name": "stock-getByCriteria",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"isSimpleLoading\":false,\n\t\"data\":{\n  \t\t\"pharmacyId\": \"\",\n\t\t\"productId\": \"\",\n\t\t\"quantity\": \"\",\n\t\t\"reorderLevel\": \"\",\n\t\t\"recordStatus\": \"\",\n\t\t\"createdAt\": \"\",\n\t\t\"createdBy\": \"\",\n\t\t\"updatedAt\": \"\",\n\t\t\"updatedBy\": \"\",\n\t\t\"isDeleted\": \"\",\n\t\t\"deletedAt\": \"\",\n\t\t\"deletedBy\": \"\"\n\t}  \n}"
+		},
+		{
+			"id": "stockAlerts.create",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/stockAlerts/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "stockAlerts-create",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"pharmacyId\": \"\",\n\t\t\t\"productId\": \"\",\n\t\t\t\"currentQuantity\": \"\",\n\t\t\t\"reorderLevel\": \"\",\n\t\t\t\"alertDate\": \"\",\n\t\t\t\"alertSent\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "stockAlerts.update",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/stockAlerts/update",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "stockAlerts-update",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"alertId\": \"\",\n\t\t\t\"pharmacyId\": \"\",\n\t\t\t\"productId\": \"\",\n\t\t\t\"currentQuantity\": \"\",\n\t\t\t\"reorderLevel\": \"\",\n\t\t\t\"alertDate\": \"\",\n\t\t\t\"alertSent\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "stockAlerts.delete",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/stockAlerts/delete",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "stockAlerts-delete",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"alertId\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "stockAlerts.getByCriteria",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/stockAlerts/getByCriteria",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439015040,
+			"name": "stockAlerts-getByCriteria",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"isSimpleLoading\":false,\n\t\"data\":{\n  \t\t\"alertId\": \"\",\n\t\t\"pharmacyId\": \"\",\n\t\t\"productId\": \"\",\n\t\t\"currentQuantity\": \"\",\n\t\t\"reorderLevel\": \"\",\n\t\t\"alertDate\": \"\",\n\t\t\"alertSent\": \"\",\n\t\t\"recordStatus\": \"\",\n\t\t\"createdAt\": \"\",\n\t\t\"createdBy\": \"\",\n\t\t\"updatedAt\": \"\",\n\t\t\"updatedBy\": \"\",\n\t\t\"isDeleted\": \"\",\n\t\t\"deletedAt\": \"\",\n\t\t\"deletedBy\": \"\"\n\t}  \n}"
+		},
+		{
+			"id": "stockAudit.create",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/stockAudit/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "stockAudit-create",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"pharmacyId\": \"\",\n\t\t\t\"productId\": \"\",\n\t\t\t\"oldQuantity\": \"\",\n\t\t\t\"newQuantity\": \"\",\n\t\t\t\"changeDate\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "stockAudit.update",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/stockAudit/update",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "stockAudit-update",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"auditId\": \"\",\n\t\t\t\"pharmacyId\": \"\",\n\t\t\t\"productId\": \"\",\n\t\t\t\"oldQuantity\": \"\",\n\t\t\t\"newQuantity\": \"\",\n\t\t\t\"changeDate\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "stockAudit.delete",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/stockAudit/delete",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "stockAudit-delete",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"auditId\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "stockAudit.getByCriteria",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/stockAudit/getByCriteria",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439015040,
+			"name": "stockAudit-getByCriteria",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"isSimpleLoading\":false,\n\t\"data\":{\n  \t\t\"auditId\": \"\",\n\t\t\"pharmacyId\": \"\",\n\t\t\"productId\": \"\",\n\t\t\"oldQuantity\": \"\",\n\t\t\"newQuantity\": \"\",\n\t\t\"changeDate\": \"\",\n\t\t\"recordStatus\": \"\",\n\t\t\"createdAt\": \"\",\n\t\t\"createdBy\": \"\",\n\t\t\"updatedAt\": \"\",\n\t\t\"updatedBy\": \"\",\n\t\t\"isDeleted\": \"\",\n\t\t\"deletedAt\": \"\",\n\t\t\"deletedBy\": \"\"\n\t}  \n}"
+		},
+		{
+			"id": "userRatings.create",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/userRatings/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "userRatings-create",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"ratedUserId\": \"\",\n\t\t\t\"raterId\": \"\",\n\t\t\t\"ratingValue\": \"\",\n\t\t\t\"comment\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "userRatings.update",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/userRatings/update",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "userRatings-update",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"ratingId\": \"\",\n\t\t\t\"ratedUserId\": \"\",\n\t\t\t\"raterId\": \"\",\n\t\t\t\"ratingValue\": \"\",\n\t\t\t\"comment\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "userRatings.delete",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/userRatings/delete",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "userRatings-delete",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"ratingId\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "userRatings.getByCriteria",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/userRatings/getByCriteria",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439015040,
+			"name": "userRatings-getByCriteria",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"isSimpleLoading\":false,\n\t\"data\":{\n  \t\t\"ratingId\": \"\",\n\t\t\"ratedUserId\": \"\",\n\t\t\"raterId\": \"\",\n\t\t\"ratingValue\": \"\",\n\t\t\"comment\": \"\",\n\t\t\"recordStatus\": \"\",\n\t\t\"createdAt\": \"\",\n\t\t\"createdBy\": \"\",\n\t\t\"updatedAt\": \"\",\n\t\t\"updatedBy\": \"\",\n\t\t\"isDeleted\": \"\",\n\t\t\"deletedAt\": \"\",\n\t\t\"deletedBy\": \"\"\n\t}  \n}"
+		},
+		{
+			"id": "userRoles.create",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/userRoles/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "userRoles-create",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "userRoles.update",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/userRoles/update",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "userRoles-update",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"userId\": \"\",\n\t\t\t\"roleId\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "userRoles.delete",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/userRoles/delete",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "userRoles-delete",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"userId\": \"\",\n\t\t\t\"roleId\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "userRoles.getByCriteria",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/userRoles/getByCriteria",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439015040,
+			"name": "userRoles-getByCriteria",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"isSimpleLoading\":false,\n\t\"data\":{\n  \t\t\"userId\": \"\",\n\t\t\"roleId\": \"\",\n\t\t\"recordStatus\": \"\",\n\t\t\"createdAt\": \"\",\n\t\t\"createdBy\": \"\",\n\t\t\"updatedAt\": \"\",\n\t\t\"updatedBy\": \"\",\n\t\t\"isDeleted\": \"\",\n\t\t\"deletedAt\": \"\",\n\t\t\"deletedBy\": \"\"\n\t}  \n}"
+		},
+		{
+			"id": "users.create",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/users/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "users-create",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"login\": \"\",\n\t\t\t\"email\": \"\",\n\t\t\t\"firstName\": \"\",\n\t\t\t\"lastName\": \"\",\n\t\t\t\"passwordHash\": \"\",\n\t\t\t\"phone\": \"\",\n\t\t\t\"address\": \"\",\n\t\t\t\"city\": \"\",\n\t\t\t\"country\": \"\",\n\t\t\t\"pharmacyId\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "users.update",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/users/update",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "users-update",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"userId\": \"\",\n\t\t\t\"login\": \"\",\n\t\t\t\"email\": \"\",\n\t\t\t\"firstName\": \"\",\n\t\t\t\"lastName\": \"\",\n\t\t\t\"passwordHash\": \"\",\n\t\t\t\"phone\": \"\",\n\t\t\t\"address\": \"\",\n\t\t\t\"city\": \"\",\n\t\t\t\"country\": \"\",\n\t\t\t\"pharmacyId\": \"\",\n\t\t\t\"recordStatus\": \"\",\n\t\t\t\"deletedAt\": \"\",\n\t\t\t\"deletedBy\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "users.delete",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/users/delete",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "users-delete",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"userId\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "users.getByCriteria",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/users/getByCriteria",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439015040,
+			"name": "users-getByCriteria",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"isSimpleLoading\":false,\n\t\"data\":{\n  \t\t\"userId\": \"\",\n\t\t\"login\": \"\",\n\t\t\"email\": \"\",\n\t\t\"firstName\": \"\",\n\t\t\"lastName\": \"\",\n\t\t\"passwordHash\": \"\",\n\t\t\"phone\": \"\",\n\t\t\"address\": \"\",\n\t\t\"city\": \"\",\n\t\t\"country\": \"\",\n\t\t\"pharmacyId\": \"\",\n\t\t\"recordStatus\": \"\",\n\t\t\"createdAt\": \"\",\n\t\t\"createdBy\": \"\",\n\t\t\"updatedAt\": \"\",\n\t\t\"updatedBy\": \"\",\n\t\t\"isDeleted\": \"\",\n\t\t\"deletedAt\": \"\",\n\t\t\"deletedBy\": \"\"\n\t}  \n}"
+		}
+	]
+}
